@@ -255,12 +255,12 @@ public class Record {
             }
         }
 
-        if (!character.getText().trim().isEmpty()) {
+        /*if (!character.getText().trim().isEmpty()) {
             System.out.println("Characteristic: " + character.getText());
 
         } else {
             OptionPane_character();
-        }
+        }*/
 
         date_Format.setLenient(false);
         time_format.setLenient(false);
@@ -274,12 +274,12 @@ public class Record {
             OptionPane_date();
         }
 
-        if (!location.getText().trim().isEmpty()) {
+        /*if (!location.getText().trim().isEmpty()) {
             System.out.println("Location: " + location.getText());
 
         } else {
             OptionPane_location();
-        }
+        }*/
 
         System.out.println("Genus: " + Objects.requireNonNull(box1.getSelectedItem()).toString());
 
